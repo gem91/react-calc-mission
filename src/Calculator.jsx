@@ -2,11 +2,12 @@ import "./App.css";
 import styled from "styled-components";
 import ResultPannel from "./components/ResultPannel";
 import AllClear from "./components/AllClear";
-import Operators, { OPERATORS } from "./components/Operators";
+import Operators from "./components/Operators";
 import NumberButtons from "./components/NumberButtons";
 import { useEffect, useState } from "react";
 
 const CalculatorContainer = styled.div`
+  margin: 20px auto 0;
   width: 300px;
   display: grid;
   grid-template-areas:
